@@ -7,10 +7,11 @@
 - JWT
 
 # Key Features
-- Authentication
-- CRUD Operations
-- Middleware
-- APIs
+
+- User authentication with JWT
+- CRUD operations for states and districts
+- Secure password handling using bcrypt
+- Middleware for route protection
   
 # Tables
 
@@ -298,4 +299,16 @@ Returns the statistics of total cases, cured, active, deaths of a specific state
 
 <br/>
 
-Use `npm install` to install the packages.
+# Clone the repository
+git clone https://github.com/Pravallika583/Covid-19-India-Portal.git
+
+# Navigate into the project folder
+cd Covid-19-India-Portal
+
+# Install dependencies
+npm install
+
+# Start the server
+node app.js
+
+Server runs at: http://localhost:3000/
